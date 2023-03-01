@@ -1070,8 +1070,9 @@ blockquote {
     function SendSms(number) {
  location.href='sms:'+number;
 }
-</script><div class="source" style=""> 
-    <button type="button" class="copy-btn" onclick="SendSms(01027502931)" style="
+</script>
+	<div class="source" style=""> 
+    <button type="button" onclick="SendSms(01027502931)" style="
     width: 520px;
     height: 120px;
     font-size: 45px;
@@ -1083,7 +1084,7 @@ blockquote {
 
 
     </div><div class="source" style=""> 
-    <button type="button" class="copy-btn" onclick="SendSms(01037704411)" style="
+    <button type="button" onclick="SendSms(01037704411)" style="
     width: 600px;
     height: 120px;
     font-size: 45px;
@@ -1095,7 +1096,7 @@ blockquote {
 
 
     </div><div class="source" style=""> 
-    <button type="button" class="copy-btn" onclick="SendSms(01086362931)" style="
+    <button type="button" onclick="SendSms(01086362931)" style="
     width: 600px;
     height: 120px;
     font-size: 45px;
@@ -1107,7 +1108,7 @@ blockquote {
 
 
     </div><div class="source" style=""> 
-    <button type="button" class="copy-btn" onclick="SendSms(01043848445)" style="
+    <button type="button" onclick="SendSms(01043848445)" style="
     width: 520px;
     height: 120px;
     font-size: 45px;
@@ -1119,7 +1120,7 @@ blockquote {
 
 
     </div><div class="source" style=""> 
-    <button type="button" class="copy-btn" onclick="SendSms(01063888445)" style="
+    <button type="button" onclick="SendSms(01063888445)" style="
     width: 600px;
     height: 120px;
     font-size: 45px;
@@ -1131,7 +1132,7 @@ blockquote {
 
 
     </div><div class="source" style=""> 
-    <button type="button" class="copy-btn" onclick="SendSms(01001050068445)" style="
+    <button type="button" onclick="SendSms(01001050068445)" style="
     width: 600px;
     height: 120px;
     font-size: 45px;
@@ -1142,21 +1143,36 @@ blockquote {
 "> '신랑 어머니'께 문자보내기</button>
 
 
-    </div></figure><p id="42"></p><h3 id="337b74fe-91fc-4fbe-b2dd-74672a28d32d" style="font-size:40px"><strong>▪︎ 계좌번호 복사하기</strong></h3>
+	</div></figure><p id="42"></p>
+<h3 id="337b74fe-91fc-4fbe-b2dd-74672a28d32d" style="font-size:40px"><strong>▪︎ 계좌번호 복사하기</strong></h3>
+<figure id="42ece4d4-0bd9-4c27-9994-10c01fcc8f39">
+<div class="source" style="text-align: center;">
+	
+<script>
+function copyToClipboard1() {
+const copyTxt = document.createElement("textarea");
+document.body.appendChild(copyTxt);
+copyTxt.value = "카카오뱅크 3333-06-0536855 석윤경";
 
+  copyTxt.select();
+  document.execCommand("copy");
+  alert("[" + copyTxt.value + "]를 복사했습니다.");
+document.body.removeChild(copyTxt);
+}
 
+function copyToClipboard2() {
+const copyTxt = document.createElement("textarea");
+document.body.appendChild(copyTxt);
+copyTxt.value = "카카오뱅크 3333-09-4980504 강형석";
 
-
- <figure id="42ece4d4-0bd9-4c27-9994-10c01fcc8f39">
-    
-    
-
-
-
-<div class="source" style="
-    text-align: center;
-"> 
-    <button type="button" class="copy-btn" onclick="" style="
+  copyTxt.select();
+  document.execCommand("copy");
+  alert("[" + copyTxt.value + "]를 복사했습니다.");
+document.body.removeChild(copyTxt);
+}
+</script>
+	
+    <button type="button" onclick="copyToClipboard1()" style="
     width: 600px;
     height: 120px;
     font-size: 45px;
@@ -1170,7 +1186,7 @@ blockquote {
     </div><div class="source" style="
     text-align: center;
 "> 
-    <button type="button" class="copy-btn" onclick="" style="
+    <button type="button" onclick="copyToClipboard2()" style="
     width: 600px;
     height: 120px;
     font-size: 45px;
