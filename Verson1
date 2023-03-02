@@ -1,0 +1,1271 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title style="
+">윤경 ♡ 형석, 우리 결혼합니다 :)</title><style>
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	/* box-sizing: border-box; */
+	-webkit-print-color-adjust: exact;
+	font-align: center;
+	font-align: center;
+}
+
+html,
+body {
+	margin: 0;
+	paddin
+		margin: 2em auto;
+		max-width: 900px;
+		/* color: rgb(55, 53, 47); */
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border-radius: 3px;
+	padding: 1rem;
+	/* padding: 1rem; */
+	padding: 1rem;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column 
+	padding: ;
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+font-align: center;}
+
+.column:last-child 
+	padding-right: ;
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	margin-top: 34px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+	margin-bottom: 20px;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code
+	font-size: 1.25em;
+	text-align: center;
+	margin: 1em;
+	/* border-left: 3px solid rgb(55, 53, 47); */
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em;
+	/* border-left: 3px solid rgb(55, 53, 47); */
+	font-align: center;
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+
+	background: rgb(255 238 176);
+	background: rgb(248 238 218);
+	background: rgb(247 237 217);
+	background: rgb(247 236 216);
+	background: rgb(246 235 216);
+	background: rgb(245 235 215);
+	background: rgb(245 234 215);
+	background: rgb(244 234 214);
+	background: rgb(244 233 214);
+	background: rgb(243 232 213);
+	background: rgb(242 231 212);
+	background: rgb(241 231 212);
+	background: rgb(241 230 211);
+	background: rgb(239 229 209);
+	background: rgb(237 227 207);
+	background: rgb(235 225 205);
+	background: rgb(231 221 201);
+	background: rgb(228 218 198);
+	background: rgb(227 216 196);
+	background: rgb(225 214 194);
+	background: rgb(222 211 191);
+	background: rgb(221 210 189);
+	background: rgb(219 208 187);
+	background: rgb(218 207 186);
+	background: rgb(218 207 185);
+	background: rgb(217 206 184);
+	background: rgb(216 204 182);
+	background: rgb(214 203 181);
+	background: rgb(212 200 178);
+	background: rgb(211 199 177);
+	background: rgb(210 198 176);
+	background: rgb(209 197 175);
+	background: rgb(209 197 174);
+	background: rgb(207 195 172);
+	background: rgb(206 193 171);
+	background: rgb(205 193 170);
+	background: rgb(204 192 168);
+	background: rgb(204 191 167);
+	background: rgb(203 190 166);
+	background: rgb(202 190 165);
+	background: rgb(202 189 164);
+	background: rgb(200 187 161);
+	background: rgb(199 185 159);
+	background: rgb(198 184 157);
+	background: rgb(197 183 156);
+	background: rgb(196 182 155);
+	background: rgb(196 181 154);
+	background: rgb(195 181 153);
+	background: rgb(194 180 152);
+	background: rgb(195 180 152);
+	background: rgb(196 182 153);
+	background: rgb(198 184 155);
+	background: rgb(201 186 157);
+	background: rgb(203 188 160);
+	background: rgb(206 191 162);
+	background: rgb(207 192 163);
+	background: rgb(255 239 208);
+	background: rgb(255 240 208);
+	background: rgb(255 242 208);
+	background: rgb(255 243 208);
+	background: rgb(255 244 208);
+	background: rgb(255 245 208);
+	background: rgb(255 244 208);
+	background: rgb(255 243 208);
+	background: rgb(255 242 208);
+	background: rgb(255 240 208);
+	background: rgb(255 239 208);
+	background: rgb(255 237 208);
+	background: rgb(255 236 208);
+	background: rgb(255 235 208);
+	background: rgb(255 234 208);
+	background: rgb(255 233 208);
+	background: rgb(255 234 208);
+	background: rgb(255 236 208);
+	background: rgb(255 237 208);
+	background: rgb(255 238 208);
+	background: rgb(255 239 208);
+	background: rgb(255 240 208);
+	background: rgb(255 241 208);
+	background: rgb(255 242 208);
+	background: rgb(255 243 208);
+	background: rgb(255 245 208);
+	background: rgb(255 246 208);
+	background: rgb(255 247 208);
+	background: rgb(255 246 208);
+	background: rgb(255 244 208);
+	background: rgb(255 242 208);
+	background: rgb(255 240 208);
+	background: rgb(255 238 208);
+	background: rgb(255 237 208);
+	background: rgb(255 238 209);
+	background: rgb(255 238 210);
+	background: rgb(255 239 212);
+	background: rgb(255 241 217);
+	background: rgb(255 242 221);
+	background: rgb(255 243 223);
+	background: rgb(255 243 224);
+	background: rgb(255 243 223);
+	background: rgb(255 241 219);
+	background: rgb(255 239 213);
+	background: rgb(255 238 209);
+	background: rgb(255 237 208);
+	background: rgb(255 237 207);
+	background: rgb(255 235 201);
+	background: rgb(255 231 192);
+	background: rgb(255 228 184);
+	background: rgb(255 227 180);
+	background: rgb(255 225 176);
+	background: rgb(255 224 173);
+	background: rgb(255 224 172);
+	background: rgb(255 223 171);
+	background: rgb(255 223 169);
+	background: rgb(255 221 165);
+	background: rgb(255 220 162);
+	background: rgb(255 219 159);
+	background: rgb(255 218 156);
+	background: rgb(255 217 154);
+	background: rgb(255 217 153);
+	background: rgb(255 216 152);
+	background: rgb(255 216 151);
+	background: rgb(255 216 150);
+	background: rgb(255 215 148);
+	background: rgb(255 214 147);
+	background: rgb(255 214 146);
+	background: rgb(254 212 143);
+	background: rgb(253 211 142);
+	background: rgb(248 205 134);
+	background: rgb(240 196 124);
+	background: rgb(232 187 111);
+	background: rgb(224 177 98);
+	background: rgb(218 169 89);
+	background: rgb(212 163 82);
+	background: rgb(210 160 78);
+	background: rgb(207 157 74);
+	background: rgb(205 155 72);
+	background: rgb(236 163 42);
+	background: rgb(236 167 42);
+	background: rgb(236 177 42);
+	background: rgb(236 193 42);
+	background: rgb(236 212 42);
+	background: rgb(236 230 42);
+	background: rgb(223 236 42);
+	background: rgb(211 236 42);
+	background: rgb(195 236 42);
+	background: rgb(179 236 42);
+	background: rgb(172 236 42);
+	background: rgb(165 236 42);
+	background: rgb(141 236 42);
+	background: rgb(125 236 42);
+	background: rgb(103 236 42);
+	background: rgb(84 236 42);
+	background: rgb(74 236 42);
+	background: rgb(70 236 42);
+	background: rgb(67 236 42);
+	background: rgb(61 236 42);
+	background: rgb(48 236 42);
+	background: rgb(42 236 51);
+	background: rgb(42 236 82);
+	background: rgb(42 236 92);
+	background: rgb(42 236 101);
+	background: rgb(42 236 108);
+	background: rgb(42 236 115);
+	background: rgb(42 236 122);
+	background: rgb(42 236 131);
+	background: rgb(42 236 136);
+	background: rgb(42 236 138);
+	background: rgb(42 236 140);
+	background: rgb(42 236 152);
+	background: rgb(42 236 168);
+	background: rgb(42 236 201);
+	background: rgb(42 236 219);
+	background: rgb(42 236 227);
+	background: rgb(42 205 236);
+	background: rgb(42 171 236);
+	background: rgb(42 149 236);
+	background: rgb(42 120 236);
+	background: rgb(42 100 236);
+	background: rgb(42 96 236);
+	background: rgb(42 94 236);
+	background: rgb(42 91 236);
+	background: rgb(42 81 236);
+	background: rgb(42 51 236);
+	background: rgb(42 44 236);
+	background: rgb(77 42 236);
+	background: rgb(92 42 236);
+	background: rgb(108 42 236);
+	background: rgb(115 42 236);
+	background: rgb(117 42 236);
+	background: rgb(126 42 236);
+	background: rgb(131 42 236);
+	background: rgb(143 42 236);
+	background: rgb(155 42 236);
+	background: rgb(157 42 236);
+	background: rgb(159 42 236);
+	background: rgb(164 42 236);
+	background: rgb(171 42 236);
+	background: rgb(180 42 236);
+	background: rgb(185 42 236);
+	background: rgb(187 42 236);
+	background: rgb(191 42 236);
+	background: rgb(198 42 236);
+	background: rgb(200 42 236);
+	background: rgb(205 42 236);
+	background: rgb(207 42 236);
+	background: rgb(205 42 236);
+	background: rgb(203 42 236);
+	background: rgb(196 42 236);
+	background: rgb(187 42 236);
+	background: rgb(182 42 236);
+	background: rgb(175 42 236);
+	background: rgb(173 42 236);
+	background: rgb(169 42 236);
+	background: rgb(164 42 236);
+	background: rgb(160 42 236);
+	background: rgb(157 42 236);
+}
+.block-color-blue {
+	color: 
+	background: rgb(226 236 42);
+	color: 
+	background: rgb(227 237 42);
+	color: 
+	background: rgb(233 243 42);
+	color: 
+	background: rgb(238 249 41);
+	color: 
+	background: rgb(244 254 41);
+	color: 
+	background: rgb(244 255 40);
+	color: 
+	background: rgb(244 255 39);
+	color: 
+	background: rgb(244 255 41);
+	color: 
+	background: rgb(245 255 47);
+	color: 
+	background: rgb(245 255 57);
+	color: 
+	background: rgb(246 255 70);
+	color: 
+	background: rgb(246 255 82);
+	color: 
+	background: rgb(247 255 95);
+	color: 
+	background: rgb(248 255 106);
+	color: 
+	background: rgb(248 255 118);
+	color: 
+	background: rgb(248 255 120);
+	color: 
+	background: rgb(249 255 126);
+	color: 
+	background: rgb(249 255 128);
+	color: 
+	background: rgb(249 255 129);
+	color: 
+	background: rgb(249 255 131);
+	color: 
+	background: rgb(249 255 130);
+	color: 
+	background: rgb(249 255 128);
+	color: 
+	background: rgb(249 255 126);
+	color: 
+	background: rgb(248 255 124);
+	color: 
+	background: rgb(248 255 123);
+	color: 
+	background: rgb(248 255 121);
+	color: 
+	background: rgb(248 255 119);
+	color: 
+	background: rgb(248 255 118);
+	color: 
+	background: rgb(247 254 117);
+	color: 
+	background: rgb(245 251 113);
+	color: 
+	background: rgb(244 251 110);
+	color: 
+	background: rgb(240 247 102);
+	color: 
+	background: rgb(237 244 95);
+	color: 
+	background: rgb(234 242 90);
+	color: 
+	background: rgb(232 240 86);
+	color: 
+	background: rgb(230 238 84);
+	color: 
+	background: rgb(230 237 84);
+	color: 
+	background: rgb(229 236 83);
+	color: 
+	background: rgb(227 235 83);
+	color: 
+	background: rgb(225 233 82);
+	color: 
+	background: rgb(216 224 79);
+	color: 
+	background: rgb(214 221 78);
+	color: 
+	background: rgb(203 209 74);
+	color: 
+	background: rgb(197 204 72);
+	color: 
+	background: rgb(192 199 69);
+	color: 
+	background: rgb(188 195 67);
+	color: 
+	background: rgb(184 190 65);
+	color: 
+	background: rgb(183 189 64);
+	color: 
+	background: rgb(182 188 64);
+	color: 
+	background: rgb(181 188 64);
+	color: 
+	background: rgb(181 187 64);
+	color: 
+	background: rgb(180 186 64);
+	color: 
+	background: rgb(178 184 64);
+	color: 
+	background: rgb(173 179 65);
+	color: 
+	background: rgb(171 176 67);
+	color: 
+	background: rgb(170 175 69);
+	color: 
+	background: rgb(170 175 71);
+	color: 
+	background: rgb(168 173 72);
+	color: 
+	background: rgb(241 241 239);
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-background {
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style><style id="__web-inspector-hide-shortcut-style__">
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+</style></head><body style="
+    background-color: #e8e3d9;
+"><article id="66d05e75-78cf-4360-a75f-ab576838b1c6" class="page sans"><header><img class="page-cover-image" src="./index_files/Photo1.jpg" style="object-position: center 28%;"><div class="page-header-icon page-header-icon-with-cover" style="
+    margin-top: -125px;
+    margin-left: 20px;
+"><img class="icon" src="https://www.notion.so/icons/heart-outline_gray.svg"></div><h1 class="page-title" style="
+    text-align: center;
+    white-space: pre-line;
+    font-size: 60px;
+">윤경 ♡ 형석
+우리 결혼합니다 :)</h1></header><div class="page-body" id="page-body"><hr id="3b1883d7-446f-4d0d-a5b8-9d3ea26c319a"><figure id="21349ebd-ff07-4ecd-bca7-0857baa159c7" class="image" style="
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+"><img style="width:1080px;" src="./index_files/Name.png"></figure><hr id="8fbd8929-9a0c-4f73-88f0-f86e986be2fc"><div id="e762a753-a203-46e3-a41b-3924f913c2b0" style="width: auto;" class="column"><blockquote id="989fdbaa-9f33-4c23-8720-4212b192f9e0" style="
+    text-align: center;
+    font-size: 40px;
+    white-space: pre-line;
+    margin: 40px 30px;
+    line-height: 1.4;
+">하나님의 사랑으로 만난 두 사람이
+이제 새로운 가정을 이루는
+아름다운 약속을 하려 합니다.
+
+언제나 행복하고 주위에 사랑을 나누는
+아름다운 가정을 이루도록
+오셔서 저희들의 새 출발을 축복해주시면
+감사하겠습니다 :)</blockquote></div>
+<div id="a31163fe-c4d3-4fc4-b20e-40964d0a71b7" class="column-list"></div><div id="439667e7-8e3e-4e8d-901a-05e59fb1cd76" style="background-color: #f3eee4;border-radius: 30px;" class="column"><figure style="white-space:pre-wrap;line-height: 2;margin-top: 40px;margin-bottom: 40px;" id="a5ba32d0-1fa3-4222-a87a-d948765984b4"><div style="margin-left: 40px;border-top-width: 20px;padding: 20px;text-align: start;font-size: 40px;"><strong>[목차]</strong> (클릭하면 이동합니다)<nav id="771f7114-1c36-493b-8b43-c29d93ef1398" style="font-size: 40px;">
+<div class="table_of_contents-item table_of_contents-indent-0"><a href="#1">→ 웨딩 날짜</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#2">→ 웨딩 사진</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#3">→ 오시는 길</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#4">→ 축하의 마음 전하기</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a href="#41">▪︎ 문자 보내기</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a href="#42">▪︎ 계좌번호 복사하기</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#5">→ 축하의 말 남기기</a></div></nav></div></figure></div><p id="1"></p><h2 id="479a45f2-54db-4a26-8745-1fa56cd985b0" style="font-size:60px; margin-top:150px;"><strong>→ 웨딩 날짜</strong></h2><figure id="4658e86c-f855-4e7b-9e87-b38dc39495b1" class="image"><img style="width: max-content;" src="./index_files/Calendar.png"></figure><p id="2c50019e-1128-4863-b829-12fec112aec8" class="" style="
+    text-align: center;
+"><mark class="highlight-yellow_background" style="
+    font-size: 40px;
+">2023년 5월 27일 토요일 낮 12시 20분</mark></p><p id="dca05428-9439-4c92-86e7-cba63b8b5d9e" class="" style="
+    text-align: center;
+    font-size: 40px;
+">피로연(식사) : 11시 50분 ~ 1시 50분</p><p id="2"></p><h2 id="19c9b068-34e8-4b7b-b79c-68daff3a1772" style="font-size:60px; margin-top:150px;"><strong>→ 웨딩 사진</strong></h2>
+	<div id="7cfcf9a5-0fd5-447a-b57c-1c704fda6fa8" class="column-list"><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:75%" class="column"><figure id="4658e86c-f855-4e7b-9e87-b38dc39495b1" class="image"><img style="width:432px" src="./index_files/Photo1.jpg"></figure></div><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:75%" class="column"><figure id="4658e86c-f855-4e7b-9e87-b38dc39495b1" class="image"><img style="width:432px" src="./index_files/Photo1.jpg"></figure></div></div>
+	<div class="source" style="text-align:center;"> 
+    <button type="button" onclick="window.open('https://yoonstone.notion.site/b09dab9109594115bd72c777335d0df9?v=e9fad765069d4468b90707f5e89cba6c')" style="
+    width: 515px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #f3eee4;
+    color: black;
+    border-radius: 100px;
+    border: #f3eee4;
+">사진 구경하러 가기</button>
+</div>
+	<p id="3"></p><h2 id="cedb1606-d3f1-4dc1-affa-1cecb5238858" style="font-size:60px; margin-top:150px;"><strong>→ 오시는 길</strong></h2><figure style="background-color: #f3eee4;border-radius: 30px; white-space:pre-wrap;display:flex; padding-right:10px padding-left:20px" id="085ef0e6-cf94-4993-bb98-e72ec8b43f13"><div style="font-size: 30px;padding-left:20px; padding-top:5px"><span class="icon">📍</span></div><div style="width:100%;font-size: 40px;text-align: start; line-height:1.5; text-align: start; padding-right:20px"><p id="747dc1bd-028a-465e-9d5f-4dcf0bb58d50">[도로명 주소] 경기도 고양시 덕양구 화신로 272번길 58 영프라자빌딩 9층</p><p id="747dc1bd-028a-465e-9d5f-4dcf0bb58d50">[지번 주소] 경기도 고양시 덕양구 화정동 972번지 영프라자빌딩 9층</p></div></figure><figure style="background-color: #f3eee4;border-radius: 30px; white-space:pre-wrap;display:flex; padding-right:10px padding-left:23px" id="085ef0e6-cf94-4993-bb98-e72ec8b43f13"><div style="font-size: 20px;padding-left:20px; padding-top:12px; padding-right:10px"><span class="icon">📞</span></div><div style="width:100%;font-size: 40px;text-align: start; line-height:1.5; text-align: start; padding-left:20px padding-right:10px"><p id="747dc1bd-028a-465e-9d5f-4dcf0bb58d50">[연락처] 031-971-3000</p></div></figure><img style="width: 1080; background-color: #f3eee4;border-radius: 30px; padding:20px 0px" src="./index_files/Map.png"><p id="4"></p><h2 id="6255cde4-1c3b-42bd-a256-88fcbc9b03e7" style="font-size:60px; margin-top:150px;"><strong>→ 축하의 마음 전하기</strong></h2><p id="41"></p><h3 id="c63282b3-a6c8-4cb3-9a5f-c49176c80010" style="font-size:40px"><strong>▪︎ 문자 보내기</strong></h3><figure id="42ece4d4-0bd9-4c27-9994-10c01fcc8f39" style="
+    text-align: center;
+">
+    
+    <script>
+    function SendSms(number) {
+ location.href='sms:'+number;
+}
+</script>
+	<div class="source" style=""> 
+    <button type="button" onclick="SendSms('01027502931')" style="
+    width: 520px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #e3d17d;
+    color: white;
+    border-radius: 100px;
+    border: #e3d17d;
+"> '신부'에게 문자보내기</button>
+
+
+    </div><div class="source" style=""> 
+    <button type="button" onclick="SendSms('01037704411')" style="
+    width: 600px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #e3d17d;
+    color: white;
+    border-radius: 100px;
+    border: #e3d17d;
+"> '신부 아버지'께 문자보내기</button>
+
+
+    </div><div class="source" style=""> 
+    <button type="button" onclick="SendSms('01086362931')" style="
+    width: 600px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #e3d17d;
+    color: white;
+    border-radius: 100px;
+    border: #e3d17d;
+"> '신부 어머니'께 문자보내기</button>
+
+
+    </div><div class="source" style=""> 
+    <button type="button" onclick="SendSms('01043848445')" style="
+    width: 520px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #5b8c57;
+    color: white;
+    border-radius: 100px;
+    border: #5b8c57;
+"> '신랑'에게 문자보내기</button>
+
+
+    </div><div class="source" style=""> 
+    <button type="button" onclick="SendSms('01063888445')" style="
+    width: 600px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #5b8c57;;
+    color: white;
+    border-radius: 100px;
+    border: #5b8c57;
+"> '신랑 아버지'께 문자보내기</button>
+
+
+    </div><div class="source" style=""> 
+    <button type="button" onclick="SendSms('01050068445')" style="
+    width: 600px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #5b8c57;;
+    color: white;
+    border-radius: 100px;
+    border: #5b8c57;
+"> '신랑 어머니'께 문자보내기</button>
+
+
+	</div></figure><p id="42"></p>
+<h3 id="337b74fe-91fc-4fbe-b2dd-74672a28d32d" style="font-size:40px"><strong>▪︎ 계좌번호 복사하기</strong></h3>
+<figure id="42ece4d4-0bd9-4c27-9994-10c01fcc8f39">
+	<script>
+function copyToClipboard1() {
+const copyTxt = document.createElement("textarea");
+document.body.appendChild(copyTxt);
+copyTxt.value = "카카오뱅크 3333-06-0536855 석윤경";
+
+  copyTxt.select();
+  document.execCommand("copy");
+  alert("[" + copyTxt.value + "]를 복사했습니다.");
+document.body.removeChild(copyTxt);
+}
+
+function copyToClipboard2() {
+const copyTxt = document.createElement("textarea");
+document.body.appendChild(copyTxt);
+copyTxt.value = "카카오뱅크 3333-09-4985054 강형석";
+
+  copyTxt.select();
+  document.execCommand("copy");
+  alert("[" + copyTxt.value + "]를 복사했습니다.");
+document.body.removeChild(copyTxt);
+}
+</script>
+<div class="source" style="text-align: center;">	
+    <button type="button" onclick="copyToClipboard1()" style="
+    width: 600px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #e3d17d;
+    color: white;
+    border-radius: 100px;
+    border: #e3d17d;
+"> '신부' 계좌번호 복사하기</button>
+
+
+    </div><div class="source" style="
+    text-align: center;
+"> 
+    <button type="button" onclick="copyToClipboard2()" style="
+    width: 600px;
+    height: 120px;
+    font-size: 45px;
+    background-color: #5b8c57;;
+    color: white;
+    border-radius: 100px;
+    border: #5b8c57;
+"> '신랑' 계좌번호 복사하기</button>
+
+
+    </div></figure><p id="999b80d1-d093-4625-a0d3-e65219544eb5" class="">
+</p><p id="5"></p><h2 id="e2690be5-b0ae-4416-bbe0-95bd90abef10" style="font-size:60px; margin-top:150px;"><strong>→ 축하의 말 남기기</strong></h2>
+
+<script>    	
+function sendComment() {
+var namee = document.getElementById('nameInput');
+var password = document.getElementById('passwordInput');
+var comment = document.getElementById('commentInput');
+
+    if (namee.value == '') {
+        alert("이름을 입력해주세요.");
+    }
+    else if(password.value == ''){
+        alert("비밀번호를 입력해주세요.");      
+    }
+    else if(comment.value == ''){
+        alert("축하의 말을 입력해주세요.");       
+    }
+    else{
+            let div = document.createElement('div');
+        div.id="commentCard";
+        div.style="background-color: #f3eee4;border-radius: 30px; padding: 25px; margin-top:20px; margin-bottom:20px";
+        div.innerHTML = '<div class="column-list" style="height: 85px;"> <div style="width:60%;font-size: 50px;font-weight: bolder;" class="column">' + namee.value + '</div><div style="width:30%" class="column"><input id="passwordInput" placeholder="비밀번호" style="width: 100%; height: 100%; padding:20px; font-size:40px;"></div><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:20%" class="column"><button type="button" onclick="deleteComment()" style="margin-left : 25px;padding : 10px;width: 80%;height: 100%;font-size: 35px;background-color: #e8e3d9;color: black;border-radius: 100px;border: #e8e3d9;">삭제</button></div></div><div style="width:100%;font-size: 40px;white-space: pre-line;line-height: 1.4;margin-top: 20px;" class="column">'+ comment.value + '</div>';
+
+        document.getElementById("commentInputCard").after(div);
+namee.value = '';
+password.value = '';   
+comment.value = '';
+	    alert("축하의 말이 성공적으로 입력되었습니다.\n감사합니다 :)");
+    }
+}
+
+function deleteComment() {
+    const deletePassworodInput = document.getElementById('passwordInputD').value;
+    if (deletePassworodInput != '') {
+        alert("성공적으로 삭제되었습니다.");
+    } else {
+        alert("비밀번호를 다시 확인해주세요.");
+    }
+}
+</script>
+	
+	<div id="commentInputCard" style="background-color: #f3eee4;border-radius: 30px; padding: 25px; margin-top:20px; margin-bottom:20px">
+                                <!-- Comment form-->
+                                <div id="7cfcf9a5-0fd5-447a-b57c-1c704fda6fa8" class="column-list" style="margin-top: 10px;"><div class="column" style="width:90%;" id="f86e9c6a-e6a6-4adb-8f65-58d566de1357"><div id="7cfcf9a5-0fd5-447a-b57c-1c704fda6fa8" class="column-list" style="
+    margin-bottom: 20px;
+"><div class="column" style="width:48%;" id="f86e9c6a-e6a6-4adb-8f65-58d566de1357"><input id="nameInput" placeholder="이름" style="width: 100%; height: 85px; padding:20px;font-size:40px; maxlengh=5;"></div><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:50%" class="column"><input id="passwordInput" placeholder="비밀번호" style="width: 100%; height: 85px; padding:20px;  font-size:40px;"></div></div><textarea id="commentInput" placeholder="이 곳에 축하의 말을 적어주세요!" style="width: 100%; height: 200px; padding:20px; font-size:40px;resize: none;"></textarea></div><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:20%" class="column"><button type="button" onclick="sendComment()" style="   
+    margin-left : 25px;
+    padding : 10px;
+    width: 80%;
+    height: 85px;
+    font-size: 35px;
+    background-color: #e8e3d9;
+    color: black;
+    border-radius: 100px;
+    border: #e8e3d9;
+">입력</button></div></div></div>
+                                
+		
+	<h2 id="e2690be5-b0ae-4416-bbe0-95bd90abef10" style="font-size:60px; margin-top:150px;"></h2>
+	<hr id="3b1883d7-446f-4d0d-a5b8-9d3ea26c319a">
+		<div id="439667e7-8e3e-4e8d-901a-05e59fb1cd76" style="background-color: #f3eee4;border-radius: 30px;" class="column"><figure style="white-space:pre-wrap;line-height: 2;margin-top: 40px;margin-bottom: 40px;" id="a5ba32d0-1fa3-4222-a87a-d948765984b4"><div style="margin-left: 40px;border-top-width: 20px;padding: 20px;text-align: start;font-size: 40px;"><strong>[목차]</strong> (클릭하면 이동합니다)<nav id="771f7114-1c36-493b-8b43-c29d93ef1398" style="font-size: 40px;">
+<div class="table_of_contents-item table_of_contents-indent-0"><a href="#1">→ 웨딩 날짜</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#2">→ 웨딩 사진</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#3">→ 오시는 길</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#4">→ 축하의 마음 전하기</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a href="#41">▪︎ 문자 보내기</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a href="#42">▪︎ 계좌번호 복사하기</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#5">→ 축하의 말 남기기</a></div></nav></div></figure></div></article></body></html>
+</body></html>
