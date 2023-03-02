@@ -1207,61 +1207,12 @@ document.body.removeChild(copyTxt);
 
     </div></figure><p id="999b80d1-d093-4625-a0d3-e65219544eb5" class="">
 </p><p id="5"></p><h2 id="e2690be5-b0ae-4416-bbe0-95bd90abef10" style="font-size:60px; margin-top:150px;"><strong>→ 축하의 말 남기기</strong></h2>
-
-<script>    	
-function sendComment() {
-var namee = document.getElementById('nameInput');
-var password = document.getElementById('passwordInput');
-var comment = document.getElementById('commentInput');
-
-    if (namee.value == '') {
-        alert("이름을 입력해주세요.");
-    }
-    else if(password.value == ''){
-        alert("비밀번호를 입력해주세요.");      
-    }
-    else if(comment.value == ''){
-        alert("축하의 말을 입력해주세요.");       
-    }
-    else{
-            let div = document.createElement('div');
-        div.id="commentCard";
-        div.style="background-color: #f3eee4;border-radius: 30px; padding: 25px; margin-top:20px; margin-bottom:20px";
-        div.innerHTML = '<div class="column-list" style="height: 85px;"> <div style="width:60%;font-size: 50px;font-weight: bolder;" class="column">' + namee.value + '</div><div style="width:30%" class="column"><input id="passwordInput" placeholder="비밀번호" style="width: 100%; height: 100%; padding:20px; font-size:40px;"></div><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:20%" class="column"><button type="button" onclick="deleteComment()" style="margin-left : 25px;padding : 10px;width: 80%;height: 100%;font-size: 35px;background-color: #e8e3d9;color: black;border-radius: 100px;border: #e8e3d9;">삭제</button></div></div><div style="width:100%;font-size: 40px;white-space: pre-line;line-height: 1.4;margin-top: 20px;" class="column">'+ comment.value + '</div>';
-
-        document.getElementById("commentInputCard").after(div);
-namee.value = '';
-password.value = '';   
-comment.value = '';
-	    alert("축하의 말이 성공적으로 입력되었습니다.\n감사합니다 :)");
-    }
-}
-
-function deleteComment() {
-    const deletePassworodInput = document.getElementById('passwordInputD').value;
-    if (deletePassworodInput != '') {
-        alert("성공적으로 삭제되었습니다.");
-    } else {
-        alert("비밀번호를 다시 확인해주세요.");
-    }
-}
-</script>
 	
-	<div id="commentInputCard" style="background-color: #f3eee4;border-radius: 30px; padding: 25px; margin-top:20px; margin-bottom:20px">
-                                <!-- Comment form-->
-                                <div id="7cfcf9a5-0fd5-447a-b57c-1c704fda6fa8" class="column-list" style="margin-top: 10px;"><div class="column" style="width:90%;" id="f86e9c6a-e6a6-4adb-8f65-58d566de1357"><div id="7cfcf9a5-0fd5-447a-b57c-1c704fda6fa8" class="column-list" style="
-    margin-bottom: 20px;
-"><div class="column" style="width:48%;" id="f86e9c6a-e6a6-4adb-8f65-58d566de1357"><input id="nameInput" placeholder="이름" style="width: 100%; height: 85px; padding:20px;font-size:40px; maxlengh=5;"></div><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:50%" class="column"><input id="passwordInput" placeholder="비밀번호" style="width: 100%; height: 85px; padding:20px;  font-size:40px;"></div></div><textarea id="commentInput" placeholder="이 곳에 축하의 말을 적어주세요!" style="width: 100%; height: 200px; padding:20px; font-size:40px;resize: none;"></textarea></div><div id="f86e9c6a-e6a6-4adb-8f65-58d566de1357" style="width:20%" class="column"><button type="button" onclick="sendComment()" style="   
-    margin-left : 25px;
-    padding : 10px;
-    width: 80%;
-    height: 85px;
-    font-size: 35px;
-    background-color: #e8e3d9;
-    color: black;
-    border-radius: 100px;
-    border: #e8e3d9;
-">입력</button></div></div></div>
+	<div style="background-color: #f3eee4;border-radius: 30px; padding: 25px; margin-top:20px; margin-bottom:20px">
+		
+<embed src="https://joey.team/block/?id=zOvdl811LvM0XdFlKdQTmsmv6L43&amp;block_id=8cQQfTR8BE6bz5HScMch" style="width:100%; height:300px">
+	
+	</div>
                                 
 		
 	<h2 id="e2690be5-b0ae-4416-bbe0-95bd90abef10" style="font-size:60px; margin-top:150px;"></h2>
