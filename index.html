@@ -1028,8 +1028,21 @@ blockquote {
 	<article class="page sans">
 		<header>
 			<img class="page-cover-image" src="./index_files/Photo1.jpg" style="object-position: center 28%;">
-			<div class="page-header-icon page-header-icon-with-cover" style="margin-top: -125px; margin-left: 20px;">
-			<img class="icon" src="https://www.notion.so/icons/heart-outline_gray.svg"></div>
+			<div style="margin-top: -125px; margin-left: 20px;">
+				
+				<script>
+					var ddayTxt = document.getElementById('dday');
+					var targetDay = new Date("2023-05-27");
+					
+					setInterval(function() {
+						var today = new Date();
+						var gap = targetDay.getTime() - today.getTime();
+						var result = Math.ceil(gap / (1000*60*60*24));
+						ddayTxt.innerHTML = "D"+ -result;
+					}, 1000);
+				</script>
+				
+			<p style="text-align: start;font-size: 60px;color: white;" id="dday">D-86</p></div>
 			<h1 class="page-title"style="text-align: center; white-space: pre-line; font-size: 80px; margin: 40px 0px;">윤경 ♡ 형석
 				우리 결혼합니다 :)</h1>
 		</header>
@@ -1040,16 +1053,16 @@ blockquote {
 			</figure>
 			<hr>
 			<div style="width: auto;" class="column">
-				<blockquote style=" text-align: center; font-size: 50px; white-space: pre-line; margin: 40px 30px; 
-						   line-height: 1.4;">하나님의 사랑으로 만난 두 사람이
+				<p style=" text-align: center; font-size: 50px; white-space: pre-line; margin: 40px 30px; line-height: 1.4;"
+				   >하나님의 사랑으로 만난 두 사람이
 					이제 새로운 가정을 이루는
 					아름다운 약속을 하려 합니다.
-					
+
 					언제나 행복하고 주위에 사랑을 나누는
 					아름다운 가정을 이루도록
 					오셔서 저희들의 새 출발을 축복해주시면
 					감사하겠습니다 :)
-				</blockquote>
+				</p>
 			</div>
 			
 			<div style="background-color: #f3eee4;border-radius: 30px;" class="column"><figure style="white-space:pre-wrap; line-height: 2; margin-top: 40px; margin-bottom: 40px;"><div style="margin-left: 40px; border-top-width: 20px; padding: 20px; text-align: start;font-size: 40px;"><strong>[목차]</strong> (클릭하면 이동합니다)<nav style="font-size: 40px;"><div class="table_of_contents-item table_of_contents-indent-0"><a href="#1">→ 웨딩 날짜</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#2">→ 웨딩 사진</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#3">→ 오시는 길</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#4">→ 축하의 마음 전하기</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a href="#41">▪︎ 문자 보내기</a></div><div class="table_of_contents-item table_of_contents-indent-1"><a href="#42">▪︎ 계좌번호 복사하기</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a href="#5">→ 축하의 말 남기기</a></div></nav></div></figure></div>
@@ -1062,9 +1075,9 @@ blockquote {
 				<img style="width: max-content;" src="./index_files/Calendar.png">
 			</figure>
 			<p style="text-align: center;">
-				<mark class="highlight-yellow_background" style="font-size: 40px;">2023년 5월 27일 토요일 낮 12시 20분</mark>
+				<mark class="highlight-yellow_background" style="font-size: 60px;">2023년 5월 27일 토요일 낮 12시 20분</mark>
 			</p>
-			<p style="text-align: center; font-size: 40px;">피로연(식사) : 11시 50분 ~ 1시 50분</p>
+			<p style="text-align: center; font-size: 60px;">피로연(식사) : 11시 50분 ~ 1시 50분</p>
 			
 			<p id="2"></p>
 			<h2 style="font-size:60px; margin-top:150px;">
