@@ -1031,15 +1031,14 @@ blockquote {
 			<div style="margin-top: -100px;">
 				
 				<script>
-					var ddayTxt = document.getElementById('dday');
-					var targetDay = new Date("2023-05-27");
-					
 					setInterval(function() {
+						var ddayTxt = document.getElementById('dday');
+						var targetDay = new Date("2023-05-27");
 						var today = new Date();
 						var gap = targetDay.getTime() - today.getTime();
 						var result = Math.ceil(gap / (1000*60*60*24));
 						ddayTxt.innerHTML = "♡"+ -result;
-					}, 1000);
+					}, 60000);
 				</script>
 				
 			<div style="text-align: start;font-size: 55px;color: white;margin-left: 20px;font-weight: bold;" id="dday">D-00</div>
