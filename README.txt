@@ -29,3 +29,7 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+
+> 깃허브의 html5으로 페이지를 제작하는 템플릿을 이용해 제작한 모바일 청첩장입니다
